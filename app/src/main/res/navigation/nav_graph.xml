@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="kz.sdk.arbuz.presentation.ui.fragments.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="kz.sdk.arbuz.presentation.ui.fragments.CartFragment"
+        android:label="CartFragment" />
+    <fragment
+        android:id="@+id/exampleFragment"
+        android:name="kz.sdk.arbuz.presentation.ui.fragments.ExampleFragment"
+        android:label="ExampleFragment" />
+</navigation>
